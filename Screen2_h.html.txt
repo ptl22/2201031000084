@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log In Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="login.jpg" alt="Login Page">
+    <h1>Log In</h1>
+    <form>
+      <label for="email">Email or Mobile Number:</label>
+      <input type="text" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Log In</button>
+      <a href="#">Forget Password?</a>
+    </form>
+    <p>Have not any account?</p>
+    <a href="#">Sign up</a>
+  </div>
+</body>
+</html>

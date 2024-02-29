@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forget Password</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="forget_password.jpg" alt="Forget Password Screen">
+    <h2>Forget Password</h2>
+    <form action="/forgot_password" method="post">
+      <label for="email">Email or Mobile Number:</label>
+      <input type="text" id="email" name="email" required><br><br>
+      <input type="submit" value="Get OTP">
+    </form>
+    <p>I have an already account <a href="#">Log In</a></p>
+  </div>
+</body>
+</html>

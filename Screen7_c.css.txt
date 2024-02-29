@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 375px;
+  height: 667px; /* Adjust the height as needed */
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.status-bar {
+  height: 20px;
+  background-color: #2196f3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.signal-bars {
+  display: flex;
+}
+
+.signal-bar {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  margin-right: 2px;
+  border-radius: 50%;
+}
+
+.battery {
+  display: flex;
+  align-items: center;
+}
+
+.battery-level {
+  width: 5px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 5px 0 0 5px;
+}
+
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 10px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.app-header img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.
